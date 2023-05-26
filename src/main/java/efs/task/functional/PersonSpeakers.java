@@ -20,8 +20,8 @@ class PersonSpeakers {
         //  Wywołanie metody say() interfejsu odbywa się w testach metody.
         //  Aby być pewnym, że użyta jest prawidłowa pisownia zaleca się użycie odpowiedniej stałej.
         //return null;
-       // return p -> HELLO + p.getName().toUpperCase() + ".";
-         return person -> person.say().toUpperCase()+".";
+        return p -> HELLO + p.getName().toUpperCase() + ".";
+        
     }
 
     Speaker createGreetLocalSpeaker() {
