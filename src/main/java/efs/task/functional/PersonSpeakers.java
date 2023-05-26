@@ -30,7 +30,7 @@ class PersonSpeakers {
         //  Wywołanie metody say() interfejsu odbywa się w testach metody.
         //  Aby być pewnym, że użyta jest prawidłowa pisownia zaleca się użycie odpowiednich stałych.
        // return null;
-         return p -> {
+        return p -> {
             String greeting;
 
             switch (p.getCountryOfLiving()) {
