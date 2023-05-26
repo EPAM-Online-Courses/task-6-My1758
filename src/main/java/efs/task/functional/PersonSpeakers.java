@@ -10,7 +10,7 @@ class PersonSpeakers {
     Speaker createGreetSpeaker() {
         // Implementacja interfejsu Speaker za pomocą wyrażenia lambda. Implementacja w tej postaci możliwa jest
         // dzięki temu, że Speaker jest interfejsem funkcyjnym - posiada tylko jedną metodę abstrakcyjną.
-        return p -> HELLO + p.getName();
+        return p -> HELLO + p.getName()+".";
     }
 
     Speaker createShoutingSpeaker() {
